@@ -78,7 +78,9 @@ sudo apt install gufw
 ```
 
 Status: on
+
 Incoming: deny
+
 Outgoing: allow
 
 Logging high
@@ -202,7 +204,7 @@ Make sure to delete unauthorized files in the FTP server
 > /etc/postgresql/...
 
 > pg_hba.conf
-turn off stuff that is not needed(?)
+- turn off stuff that is not needed(?)
 
 > postgresql.conf
 ```bash
@@ -214,7 +216,7 @@ log_connections = on
 ```
 
 > pg_ident.conf
-remain empty unless specified by readme
+- remain empty unless specified by readme
 
 # Ignore ICMP Echo Requests
 
